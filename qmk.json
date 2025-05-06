@@ -1,7 +1,6 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-        ["keebio/iris/rev2", "default"],
-        ["keebio/iris/rev2", "rgb"]
+        ["keebio/iris/rev2", "base"]
     ]
 }
