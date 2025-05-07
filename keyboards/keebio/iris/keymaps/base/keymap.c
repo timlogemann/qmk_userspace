@@ -1,13 +1,16 @@
 #include "quantum_keycodes.h"
 #include QMK_KEYBOARD_H
-#if __has_include("keymap.h")
-#    include "keymap.h"
-#endif
 
-#include "features/layers.c"
-#include "features/combos.c"
-#include "features/overrides.c"
-#include "features/rgb.c"
+#define _QWERTY 0
+#define _MEDIA_ARROWS 1
+#define _MOUSE 2
+#define _BRACKETS 3
+#define _GAME 4
+
+// #include "features/layers.c"
+// #include "features/combos.c"
+// #include "features/overrides.c"
+// #include "features/rgb.c"
 
 /**
  *  Layer maps
